@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <script defer src="js/form.js"></script>
+
+</head>
+<body>
+   
+   <div class="container">
+    <form class="formdata" name="myForm" onsubmit="return validateForm()">
+       <div class="field">
+          
+          <div class="field" >
+             <label class="labelFd" >Name</label >
+             <input class="inputFd" type = "text" name = "Name" /><span  id="nameErr"  ></span>
+          </div>
+          
+          <div class="field" >
+             <label class="labelFd" >EMail</label >
+             <input class="inputFd" type = "text" name = "EMail" /><span  id="emailErr" ></span>
+          </div>
+
+          <div class="field" >
+            <label class="labelFd" >Password</label >
+            <input class="inputFd" type = "text" name = "Password"  /><span id="passErr" ></span>
+         </div>
+         <div class="field">
+            <label class="labelFd">Confirm Password</label >
+            <input class="inputFd" type = "text" name = "Confirmpass"  /><span id="cpassErr" ></span>
+         </div>
+          
+          <div class="field">
+             <label class="labelFd" >Phone num</label >
+             <input class="inputFd" type = "text" name = "Phone"  /><span id="phoneErr" ></span>
+          </div>
+
+          <div class="field">
+             <label class="labelFd">Country</label>
+             <div>
+                <select name="Country" id="country">
+                   <option value = "-1" selected>[choose yours]</option>
+                   <option value = "1">USA</option>
+                   <option value = "2">UK</option>
+                   <option value = "3">INDIA</option>
+                </select>
+                <span id="countryErr"></span>
+             </div>
+          </div>
+          
+          <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+          
+        </div>
+    </form>
+</div>
+
+    <script src="js/form.js"></script>
+
+ </body>
+</html>
+</html>

@@ -1,0 +1,11 @@
+*{box-sizing: border-box; padding: 0; margin: 0;font-size: 17px;}
+.formerror{color: red; font-weight: 700; font-size: 15px;}
+
+span{ color: red;  font-weight: 700; font-size: 15px;}
+
+.formdata{justify-content: center;margin: 20px;padding: 10px;}
+
+.inputFd{display: inline; justify-content: center; margin: 2px; padding:2px;}
+.container{max-width: 1200px; margin: auto;}
+.labelFd{width: 20%; text-align: left; display: inline-block;margin-left: 10px;}
+.field{ padding: 5px 0;}
